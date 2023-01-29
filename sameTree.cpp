@@ -106,11 +106,8 @@ bool isSame(node* root1, node* root2){
     if(root2==NULL|| root1==NULL){
         return false;
     }
-
 return root1->data==root2->data && isSame(root1->left, root2->left)&& isSame(root2->right,root2->right);
 }
-
-    
 
 int main() {
 

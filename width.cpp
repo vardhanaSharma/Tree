@@ -72,7 +72,6 @@ void buildFromLevelOrder(node* &root) {
     int data ;
     cin >> data;
     root = new node(data);
-    
     q.push(root);
 
     while(!q.empty()) {
